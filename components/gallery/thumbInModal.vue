@@ -50,10 +50,10 @@ export default {
 
 .thumb:hover{
     cursor: pointer;
+    width: 105px;
+  height: 105px;
 }
 
-.selected{
-    border: 1px solid black
-}
+
 
 </style>

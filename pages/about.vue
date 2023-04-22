@@ -1,6 +1,5 @@
 <template>
     <div class="main-wrap">
-        <TopNav/>
         <h1 class="colorRed">About</h1>
         <div class="alert">
             <button @click="showInfo">Kliknij mnie</button>

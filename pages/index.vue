@@ -1,6 +1,5 @@
 <template>
   <div>
-    <TopNav/>
     <h1>Strona główna</h1>
     <ClassComp :name="pOla.name" :age="pOla.age"/>
   </div>
@@ -19,7 +18,7 @@ export default {
     }
   },
   created(){
-    this.pOla=this.person('Ola', '12', '89')
+    this.pOla=this.person('Ola', '12', 89)
     console.log( this.pOla);
   },
   methods:{
@@ -32,5 +31,5 @@ export default {
 </script>
 
 <style scoped>
-@import '../assets/css/index.css';
+
 </style>

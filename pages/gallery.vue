@@ -1,6 +1,5 @@
 <template>
     <div class="main-wrap">
-        <TopNav/>
         <div class="gallery-wrap">
         <BigImage :image="bigImg" @rm="runModal($event)"/>
         <Thumb :images="items" @selectedImg="showImage($event)"/>
